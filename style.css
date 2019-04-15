@@ -1,0 +1,71 @@
+body {
+   font-family: Arial;
+   background-color: white;
+}
+
+#navbarSupportedContent {
+	margin-right:50px;
+}
+
+.intro {
+	color:white;
+}
+
+.content {
+	background-image: url('./img/dumbellmin.jpg');
+	background-repeat:no-repeat;
+    background-size:cover;
+	height: 600px;
+	width: auto;
+	opacity:0.8;
+}
+
+.statement {
+	position: relative;
+	top: 200px;
+	left: 20px;
+	opacity:1;
+	color: white;
+	line-height: 80px;
+}
+
+.lead {
+	font-size: 5rem;
+}
+
+.hidden {
+    position: relative;
+    left: -1500px;
+    width: auto;
+    height: 100px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.hidden {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.hidden {
+    font-size: 30px;
+  }
+}
+
+#navbarSupportedContent {
+	font-size: 20px;
+}
