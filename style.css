@@ -69,3 +69,32 @@ body {
 #navbarSupportedContent {
 	font-size: 20px;
 }
+
+.bg-1 { 
+    background-color: #f7f7f7; 
+    color: #000000;
+}
+
+.bg-2 { 
+    background-color: #f7f7f7; 
+    color: #000000;
+}
+
+.whoami {
+    display: inline-block;
+    width: 60%;
+    height: 100px;
+}
+
+.bg-3 { 
+    background-color: #f7f7f7; 
+    color: #000000;
+}
+
+.container-fluid {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+
+}
